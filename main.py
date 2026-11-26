@@ -1,6 +1,7 @@
 """Write the one-sentence apology to the grader's output directory.
 
-Pure stdlib, deterministic: the same line on every run.
+Pure stdlib, deterministic: the same line on every run. The line is a
+single sentence of 139 characters, inside the gate's 1-200 range.
 """
 
 import os
